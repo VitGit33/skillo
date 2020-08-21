@@ -15,6 +15,13 @@ public class Main {
 
         phone.call("Whats up bro, are you going to run tomorrow morning?");
 
+        System.out.println(phone.setTariff("Medium"));
+        System.out.println(phone.tariff == "Medium");
+        System.out.println();
+
+        System.out.println(phone.isTrain("Tornado", 1));
+        System.out.println(phone.isTrain("Sunny", 1));
+        System.out.println(phone.isTrain("Rainy", 1));
 
 
     }
